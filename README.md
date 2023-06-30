@@ -1,3 +1,6 @@
 # Rice Classifier
 
-Demo: https://rice-classifier.streamlit.app
+Interactive SVM classifier of rice grain.
+
+## Demo
+https://rice-classifier.streamlit.app
