@@ -4,3 +4,13 @@ openpyxl
 plotly
 scikit-learn
 streamlit
+black
+flake8
+isort
+loguru
+mkdocs
+pip
+python-dotenv
+tqdm
+typer
+-e .

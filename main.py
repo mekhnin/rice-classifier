@@ -87,3 +87,4 @@ eccentricity = st.sidebar.slider(label=cache['columns'][4], min_value=0.7, max_v
 convex_area = st.sidebar.slider(label=cache['columns'][5], min_value=7000, max_value=20000, step=200, value=12000)
 extent = st.sidebar.slider(label=cache['columns'][6], min_value=0.3, max_value=1.0, step=0.05, value=0.8)
 update()
+
