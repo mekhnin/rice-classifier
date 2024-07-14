@@ -1,7 +1,12 @@
 # Rice Classifier
 
-Interactive SVM classifier of rice grain.
+Interactive AI classifier of rice grain.
+
+## ML Workflow
+![Machine Learning Workflow Diagram](docs/images/ml_workflow_diagram.png "Machine Learning Workflow Diagram")
 
 ## Demo
 https://rice-classifier.streamlit.app<br>
-![Streamlit App Demo](images/demo.png "Streamlit App Demo")
+![Streamlit App Demo](docs/images/demo.png "Streamlit App Demo")
+
+
