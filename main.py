@@ -37,7 +37,7 @@ def fit():
     components = pca.fit_transform(X)
     svm_linear = svm.SVC(
         kernel="linear",
-        probability=False,  # вывод оценки вероятности
+        probability=False,
         random_state=4399,
     )
     svm_linear.fit(X, y)
