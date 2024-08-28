@@ -11,7 +11,7 @@ from sklearn.utils import resample
 def load():
     df = pl.read_excel(st.secrets.url)
     X_train = df.drop("Class")
-    y_train = df.Class.map(lambda x: 1 if x == "Cammeo" else 0)
+    y_train = df["Class"].map(lambda x: 1 if x == "Cammeo" else 0)
     n_samples = y_train.value_counts().max() - y_train.value_counts().min()
     resampled = resample(
         X_train.iloc[X_train.index[y_train == 1], :],
