@@ -1,6 +1,5 @@
-numpy==1.26.4
-pandas==1.3.5
-fastexcel
+numpy==2.1.0
+pandas==2.2.2
 openpyxl
 plotly
 scikit-learn
