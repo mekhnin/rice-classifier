@@ -10,7 +10,7 @@ from sklearn.utils import resample
 
 def load():
     df = pl.read_excel(st.secrets.url)
-    X_train = df.drop("Class", axis=1)
+    X_train = df.drop("Class")
     y_train = df.Class.map(lambda x: 1 if x == "Cammeo" else 0)
     n_samples = y_train.value_counts().max() - y_train.value_counts().min()
     resampled = resample(
@@ -19,7 +19,7 @@ def load():
         replace=True,
         random_state=4399,
     )
-    X_train_resampled = pl.concat([X_train, resampled], ignore_index=True)
+    X_train_resampled = pl.concat([X_train, resampled])
     y_train_resampled = y_train.append(
         pl.Series(1).repeat(n_samples), ignore_index=True
     )
