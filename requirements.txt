@@ -1,5 +1,5 @@
 numpy==2.1.0
-pandas==1.5.3
+pandas==2.2.2
 openpyxl
 plotly
 scikit-learn
@@ -13,3 +13,4 @@ pip
 python-dotenv
 tqdm
 typer
+-e .
