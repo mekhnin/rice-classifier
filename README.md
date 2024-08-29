@@ -3,6 +3,8 @@
 Interactive AI classifier of rice grain.
 
 ## Demo
+
+Deployed on Streamlit Community Cloud:
 https://rice-classifier.streamlit.app<br>
 ![Streamlit App Demo](docs/images/demo.png "Streamlit App Demo")
 
